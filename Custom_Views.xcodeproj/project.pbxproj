@@ -19,6 +19,10 @@
 		0F849D321950825700C5ECA3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F849D1A1950825700C5ECA3 /* UIKit.framework */; };
 		0F849D3A1950825700C5ECA3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0F849D381950825700C5ECA3 /* InfoPlist.strings */; };
 		0F849D3C1950825700C5ECA3 /* Custom_ViewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F849D3B1950825700C5ECA3 /* Custom_ViewsTests.m */; };
+		0F849D461950827200C5ECA3 /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F849D451950827200C5ECA3 /* iPhone.storyboard */; };
+		0F849D49195082D300C5ECA3 /* ZAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F849D48195082D300C5ECA3 /* ZAViewController.m */; };
+		0F849D4C1950830600C5ECA3 /* ZAView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F849D4B1950830600C5ECA3 /* ZAView.m */; };
+		0F849D4E1950831500C5ECA3 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F849D4D1950831500C5ECA3 /* View.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,12 @@
 		0F849D371950825700C5ECA3 /* Custom_ViewsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Custom_ViewsTests-Info.plist"; sourceTree = "<group>"; };
 		0F849D391950825700C5ECA3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0F849D3B1950825700C5ECA3 /* Custom_ViewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Custom_ViewsTests.m; sourceTree = "<group>"; };
+		0F849D451950827200C5ECA3 /* iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = iPhone.storyboard; path = ../iPhone.storyboard; sourceTree = "<group>"; };
+		0F849D47195082D300C5ECA3 /* ZAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZAViewController.h; sourceTree = "<group>"; };
+		0F849D48195082D300C5ECA3 /* ZAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZAViewController.m; sourceTree = "<group>"; };
+		0F849D4A1950830600C5ECA3 /* ZAView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZAView.h; sourceTree = "<group>"; };
+		0F849D4B1950830600C5ECA3 /* ZAView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZAView.m; sourceTree = "<group>"; };
+		0F849D4D1950831500C5ECA3 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +117,12 @@
 		0F849D1C1950825700C5ECA3 /* Custom_Views */ = {
 			isa = PBXGroup;
 			children = (
+				0F849D451950827200C5ECA3 /* iPhone.storyboard */,
+				0F849D4A1950830600C5ECA3 /* ZAView.h */,
+				0F849D4B1950830600C5ECA3 /* ZAView.m */,
+				0F849D4D1950831500C5ECA3 /* View.xib */,
+				0F849D47195082D300C5ECA3 /* ZAViewController.h */,
+				0F849D48195082D300C5ECA3 /* ZAViewController.m */,
 				0F849D251950825700C5ECA3 /* ZAAppDelegate.h */,
 				0F849D261950825700C5ECA3 /* ZAAppDelegate.m */,
 				0F849D281950825700C5ECA3 /* Images.xcassets */,
@@ -220,7 +236,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F849D4E1950831500C5ECA3 /* View.xib in Resources */,
 				0F849D211950825700C5ECA3 /* InfoPlist.strings in Resources */,
+				0F849D461950827200C5ECA3 /* iPhone.storyboard in Resources */,
 				0F849D291950825700C5ECA3 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +258,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F849D49195082D300C5ECA3 /* ZAViewController.m in Sources */,
+				0F849D4C1950830600C5ECA3 /* ZAView.m in Sources */,
 				0F849D231950825700C5ECA3 /* main.m in Sources */,
 				0F849D271950825700C5ECA3 /* ZAAppDelegate.m in Sources */,
 			);
