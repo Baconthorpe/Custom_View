@@ -12,13 +12,25 @@
 
 - (id)initWithFrame:(CGRect)frame
 {
-    self = [super initWithFrame:frame];
+    self = [self initWithNibName:@"View"];
     if (self) {
         // Initialization code
         
         
         self.backgroundColor = [UIColor cyanColor];
     }
+    return self;
+}
+
+- initWithNibName: (NSString *)nibName
+{
+    NSArray *arrayOfViews = [[NSBundle mainBundle] loadNibNamed:nibName owner:self.owner options:nil];
+    if (arrayOfViews.count < 1) {
+        return nil;
+    }
+    
+    self = arrayOfViews[0];
+    
     return self;
 }
 
